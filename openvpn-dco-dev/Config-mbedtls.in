@@ -36,10 +36,6 @@ config OPENVPN_mbedtls_ENABLE_DEF_AUTH
 	bool "Enable deferred authentication"
 	default y
 
-config OPENVPN_mbedtls_ENABLE_PF
-	bool "Enable internal packet filter"
-	default y
-
 config OPENVPN_mbedtls_ENABLE_IPROUTE2
 	bool "Enable support for iproute2"
 	default n
