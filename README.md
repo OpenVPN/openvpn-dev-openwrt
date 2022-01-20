@@ -7,7 +7,7 @@ In this feed you find the following two packages:
 * openvpn-dco-dev: openvpn software built out of the latest dco branch
 
 These two packages are helpful to test OpenVPN with DCO (Data Channel Offload)
-support before it gets release.
+support before it gets released.
 
 ## Usage
 
