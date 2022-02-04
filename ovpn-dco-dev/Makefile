@@ -34,7 +34,7 @@ define KernelPackage/ovpn-dco/description
   to kernelspace and improve your VPN performance.
 endef
 
-define KernelPackage/ovpn-dco/config
+define KernelPackage/ovpn-dco-dev/config
   if PACKAGE_kmod-ovpn-dco-dev
 
 	config OVPN_DCO_DEBUG
