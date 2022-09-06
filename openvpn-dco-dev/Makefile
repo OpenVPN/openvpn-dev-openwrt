@@ -7,7 +7,7 @@ PKG_RELEASE:=$(AUTORELEASE)
 
 PKG_SOURCE_PROTO:=git
 PKG_SOURCE_URL:=https://github.com/OpenVPN/openvpn.git
-PKG_BRANCH:=dco
+PKG_BRANCH:=master
 PKG_REV:=$(shell git ls-remote $(PKG_SOURCE_URL) $(PKG_BRANCH)|cut -c1-12)
 PKG_SOURCE_VERSION:=$(PKG_REV)
 PKG_VERSION:=2.6.git-$(PKG_REV)
